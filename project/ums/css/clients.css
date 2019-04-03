@@ -1,0 +1,107 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../img/background2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border:1px solid transparent;
+	transition: 0.6s ease; 
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float:left;
+	width:150px;
+	height:auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top:7%;
+	left: 15%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 50px;
+}
+
+.box{
+	width:300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-40%);
+	background:#191919;
+	text-align: center;
+}
+
+.box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.box h2, .box p{
+	color: white;
+}
+
+table{
+	border-collapse: collapse;
+	width: 90%;
+	color: white;
+	font-family: monospace;
+	font-size: 17px;
+	text-align: left;
+	background: #191919;
+	transform: translate(60px,30px);
+}
+
+th{
+	padding: 15px;
+	background: #191919;
+	color: white;
+	font-size: 20px;
+	font-style: bold;
+}
+
+td{
+	padding: 0 0 5px 15px;
+	text-decoration: none;
+}

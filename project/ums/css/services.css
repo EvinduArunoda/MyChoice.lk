@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../img/background2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border:1px solid transparent;
+	transition: 0.6s ease; 
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float:left;
+	width:150px;
+	height:auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top:7%;
+	left: 15%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 50px;
+}
+
+.service_1, .service_2, .service_3{
+	width:300px;
+	height: 250px;
+	padding: 40px;
+	left : 50%;
+	top: 50%;
+	position: absolute;
+	background:#191919;
+	text-align: center;
+}
+
+.box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.box h2, .box p{
+	color: white;
+}
+
+.service_1 {
+	transform: translate(-170%,-30%);
+}
+
+.service_2 {
+	height: 350px;
+	transform: translate(-50%,-46%);
+}
+
+.service_3 {
+	transform: translate(70%,-30%);
+}
+
+.service_2 p a{
+	text-decoration: none;
+	color: white;
+}
+
+.service_2 p a:hover{
+	color: #3498db;
+	font-weight: bold;
+}
