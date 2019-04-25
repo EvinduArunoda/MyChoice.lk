@@ -1,0 +1,25 @@
+body{
+	background: url("img/background2.jpg") no-repeat;
+	margin-top: 0;
+	margin-left: 0;
+	padding: 10px;
+
+}
+h1{
+	color: orange;
+	font-family: sans-serif;
+	font-weight: bold;
+	top:1%;
+	left:50%;
+	position: absolute;
+	size: 40px;
+}
+h2{
+	color: red;
+	font-family: sans-serif;
+	font-weight: bold;
+	top:10%;
+	left:30%;
+	position: absolute;
+	size: 40px;
+}
