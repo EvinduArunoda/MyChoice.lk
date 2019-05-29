@@ -1,0 +1,144 @@
+.clearfix{
+	overflow: auto;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../img/background3.jpg);
+	height: 30vh;
+	background-size: cover;
+	background-position: center;
+}
+
+header ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border:1px solid transparent;
+}
+
+header ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+header ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.rest{
+	width: 100%;
+}
+
+.data{
+	float: right;
+	width: 100%;
+}
+
+.main{
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top:7%;
+	left: 13%;
+	transform: translate(-50%,-50%);
+	background-image: url(C:\Users\Melanga\Downloads\1.png);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 50px;
+}
+
+.profile{
+	width: 40%;
+	float: left;
+	text-align: center;
+	color: white; 
+	background: #b3b3cc;
+	margin: 2%;
+}
+
+.profile-data{
+	width: 100%;
+}
+
+.profile h3{
+	font-family: "Times New Roman";
+	font-weight: normal;
+}
+
+.pic{
+	float: left;
+	margin: 2%;
+}
+
+.pic img{
+	width: 200px;
+	height: 200px;
+	float: left;
+	border: 2px solid #b3b3cc;
+}
+
+.items{
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+ .items h2{
+	background: linear-gradient(#4d4d4d, #8c8c8c, #bfbfbf, #8c8c8c, #4d4d4d); 
+	width: 96%; 
+	padding-top: 1%; 
+	padding-bottom: 1%;
+	margin: 1% 0 1% 2%;
+	color: white;
+	border-radius: 24px;
+	opacity: 0.9;
+}
+
+.item-column{
+	width: 20%;
+	float: left;
+}
+
+.pict img{
+	margin-top: 10%;
+	width: 60%;
+}
+
+.item-column h4, .item-column h5{
+	font-family: "Times New Roman";
+	font-weight: normal;
+}
+
+.display-data{
+	font-family: "Times New Roman";
+	font-weight: normal;
+}
+
+.display-data h3{
+	line-height: 0;
+}

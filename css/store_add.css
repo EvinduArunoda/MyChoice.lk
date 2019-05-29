@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../img/background2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;	
+	background-repeat: no-repeat;
+  	background-attachment: scroll;
+}
+
+.basic_data{
+	width: 300px;
+	height: 525px;
+	padding: 10px 20px 30px 20px;
+	margin-left: 37.5%;
+	margin-top: 15%;
+	background:#191919;
+	text-align: center;
+	opacity: 0.9;
+}
+
+.data h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.data input[type="text"], .data input[type="email"], .data textarea{
+	border:0;
+	background:#191919;
+	display: block;
+	margin: 3px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 10px 5px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+}
+
+.data textarea{
+	height: 55px;
+}
+
+.data input[type="text"]:focus{
+	width:280px;
+	border-color: #2ecc71;
+}
+
+.data input[type="submit"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 9px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 10px 7.5px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.data input[type="submit"]:hover{
+	background: #2ecc71;
+}
+
+.upload input[type="submit"]{
+	border: 2px solid #85adad;
+}
+
+.upload input[type="submit"]:hover{
+	background: #85adad;
+}
